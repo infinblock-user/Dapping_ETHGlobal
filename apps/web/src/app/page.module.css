@@ -1,0 +1,22 @@
+.hero {
+  padding: clamp(96px, 14vw, 168px) 0 var(--space-section);
+}
+
+.title {
+  font-size: clamp(40px, 6.4vw, 76px);
+  max-width: 860px;
+}
+
+.lead {
+  margin-top: 24px;
+  max-width: 580px;
+  font-size: 19px;
+  color: var(--text-secondary);
+}
+
+.actions {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

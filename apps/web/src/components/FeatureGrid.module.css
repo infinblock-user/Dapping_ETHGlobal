@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+
+.step {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.body {
+  margin-top: 10px;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
