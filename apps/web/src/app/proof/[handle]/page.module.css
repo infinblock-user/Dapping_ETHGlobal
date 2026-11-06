@@ -1,0 +1,66 @@
+.page {
+  padding-top: 72px;
+  padding-bottom: var(--space-section);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.name {
+  font-size: clamp(32px, 5vw, 52px);
+}
+
+.headline {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 18px;
+  max-width: 560px;
+}
+
+.links {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.links a:hover {
+  color: var(--text);
+}
+
+.score {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 28px;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+
+.scoreValue {
+  font-family: var(--font-display);
+  font-size: 44px;
+  line-height: 1;
+}
+
+.scoreLabel {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
